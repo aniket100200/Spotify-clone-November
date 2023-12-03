@@ -42,9 +42,6 @@ body {
     line-height: 1cm;
     justify-items: start;
     overflow: hidden;
-
-
-
 }
 
 .marpad {
@@ -131,7 +128,7 @@ body {
 {
     Width: 210px;
     Height: 251px;
-    background-color:;
+    background-color:rgb(24, 24, 24);
     margin-inline: 20px;
     margin-bottom: 15px;
     background: #181818;    
