@@ -165,3 +165,60 @@ table{
     border-radius: 5px;
 }
 
+
+@media screen and (max-width: 767px)
+{
+    .nav
+    {
+        width: 30vw;
+    }
+
+    .part-1
+    {
+        justify-content: start;
+        margin:0px;
+        padding: 0px;
+        align-items: start;
+        height: 600px;
+    }
+
+    .pop-girl>img
+    {
+        width: 200px;
+    }
+    .text{
+        display: none;
+    }
+    .mitado{
+        display: none;
+    }
+
+    .girl{
+        display: none;
+    }
+
+    /* .music-player>div-1,div-3
+    {
+        display: none;
+    } */
+
+    .artist-image,.song-title
+    {
+        display: none;
+    }
+
+    .music-player
+    {
+        width: 500px;
+        position: fixed;
+        bottom: 0px;
+    }
+
+    #line
+    {
+      width: 200px;
+    }
+    
+
+}
+
