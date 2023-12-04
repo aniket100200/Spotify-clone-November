@@ -232,6 +232,10 @@ table{
       width: 200px;
     }
     
+    #pan{
+        display: none;
+        content: counter(click me);
+    }
 
 }
 
