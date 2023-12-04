@@ -16,6 +16,7 @@
 </head>
 
 <body>
+   <main>
     <section class="playlist">
         <div class="nav d-flex">
 
@@ -31,10 +32,10 @@
                     </div>
                     <div class="music-related ms-3 mb-2">
                         <p>PLAYLISTS</p>
-                        <div class="create-playlist">
+                        <div class="create-playlist ">
                             <i class="fa-solid fa-plus"></i> Create Playlist
                         </div>
-                        <div class="liked-songs">
+                        <div class="liked-songs heart-vibe">
                             <i class="fa-solid fa-heart"></i> Liked Songs
                         </div>
                     </div>
@@ -48,7 +49,12 @@
         </div>
         </div>
         <div class="container">
+            
             <div class="part-1 d-flex flex-column justify-content-center">
+                <div class="left-right ms-3 mt-2">
+                   <span> <i class="fa-solid fa-chevron-left" style="color: grey;"></i></span>
+                    <span><a href="./home.html" style="text-decoration: none; color: white;"><i class="fa-solid fa-chevron-right"></i></a></span>
+                </div>
                 <div class="upper d-flex align-items-center mt-5 ms-5">
                     <div class="pop-girl">
                         <img src="./pop-girl.svg" alt="pop-girl">
@@ -77,13 +83,16 @@
             <div class="part-2">
                 <!-- Let's code in the Part-2 -->
                 <table style="width: 100%;">
-                    <tr>
-                        <th># <span class="ms-3"></span> TITLE</th>
-                        <th class="mitado">ALBUM</th>
-                        <TH class="mitado">DATE ADDED</TH>
-                        <TH class="mitado"></TH>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th># <span class="ms-3"></span> TITLE</th>
+                            <th class="mitado">ALBUM</th>
+                            <TH class="mitado">DATE ADDED</TH>
+                            <TH class="mitado"></TH>
+                        </tr>
+                    </thead>
 
+                   <tbody>
                     <tr>
                         <td class="d-flex align-items-center"><i class="fa-solid fa-caret-right me-1"></i>
                             <div class="d-flex ">
@@ -182,6 +191,7 @@
                         <td class="mitado">일 전</td>
                         <td class="mitado"> 2:45 <i class="fa-solid fa-ellipsis"></i></td>
                     </tr>
+                   </tbody>
 
 
                 </table>
@@ -205,19 +215,19 @@
             <div class="div2">
                 <div class="d-flex justify-content-between">
                     <div class="blacker">
-                        <h3><i class="fa-solid fa-shuffle"></i></h3>
+                        <h3 class="shuffle"><i class="fa-solid fa-shuffle" title="Shuffle"></i></h3>
+                    </div>
+                    <div class="blacker-1">
+                        <h3><i class="fa-solid fa-backward-step" title="Prev"></i></h3>
                     </div>
                     <div class="blacker">
-                        <h3><i class="fa-solid fa-backward-step"></i></h3>
+                        <h3><i class="fa-regular fa-circle-play" title="Play"></i></h3>
+                    </div>
+                    <div class="blacker-1">
+                        <h3><i class="fa-solid fa-forward-step" title="Next"></i></h3>
                     </div>
                     <div class="blacker">
-                        <h3><i class="fa-regular fa-circle-play"></i></h3>
-                    </div>
-                    <div class="blacker">
-                        <h3><i class="fa-solid fa-forward-step"></i></h3>
-                    </div>
-                    <div class="blacker">
-                        <h3><i class="fa-solid fa-repeat"></i></h3>
+                        <h3><i class="fa-solid fa-repeat" title="Repeat"></i></h3>
                     </div>
                 </div>
                 <div id="group-4" class="d-flex align-items-center justify-content-between">
@@ -237,6 +247,7 @@
 
         </div>
     </section>
+   </main>
 </body>
 
 </html>
